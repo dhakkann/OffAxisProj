@@ -37,9 +37,12 @@ Set output port in OpenTrack to 5252.
     I am planning to implement better methods for headtracking(ArUco Marker / Infrared Leds).
 * Changing from Unity basic-render-pipeline to Universal-Render-Pipeline posed problems with materials.
 * PostProcessing-v2 stack did not work with the current implementation of the code. There was a lot of jiterryness in the rendering process.
+* Changing the scale of ProjectionPlane GameObject messed up the the scale for the camera as well, as Camera is child of the ProjectionPlane, which made the input data to translate to accurate movement a bit hard.
+
 
 ## Resources Used
-
+* https://arxiv.org/pdf/2311.05887
+* https://docs.unity3d.com/ScriptReference/Camera-nonJitteredProjectionMatrix.html
 * https://www.hackster.io/ndaniel/interactive-ai-powered-3d-screen-f9d81d
 * http://160592857366.free.fr/joe/ebooks/ShareData/Generalized%20Perspective%20Projection.pdf
 * https://web.archive.org/web/20180309131934/http://www.anxious-bored.com/blog/2018/2/25/theparallaxview-illusion-of-depth-by-3d-head-tracking-on-iphone-x
@@ -71,6 +74,13 @@ Set output port in OpenTrack to 5252.
 
 [Similar implementation with FreeTrack API](https://github.com/marcteys/unityFaceTracking)
 
+[Off-Axis_Projection in Unreal Engine](https://github.com/GeodesicGames/SimpleOffAxisProjection)
+ 
+[Unreal Engine plugin](https://github.com/GeodesicGames/SimpleOffAxisProjection)
+
+[DepthIllusionWithARCore](https://github.com/kocosman/DepthIllusionWithARCore)
+
+[iPhone X](https://github.com/algomystic/TheParallaxView)
 
 
 ## License
