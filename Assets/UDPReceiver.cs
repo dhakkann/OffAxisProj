@@ -135,7 +135,7 @@ public class UDPReceiver : MonoBehaviour
         // Apply the position and rotation to the targetObject
         if (targetObject != null)
         {
-            targetObject.transform.localPosition = Vector3.Scale(inversion, Position) - allignment;
+            targetObject.transform.localPosition = constant * Vector3.Scale(inversion, Position) - allignment;
             //targetObject.transform.localEulerAngles = Rotation;
         }
     }
