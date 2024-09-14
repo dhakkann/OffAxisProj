@@ -38,16 +38,32 @@ Set output port in OpenTrack to 5252.
 * Changing from Unity basic-render-pipeline to Universal-Render-Pipeline posed problems with materials.
 * PostProcessing-v2 stack did not work with the current implementation of the code. There was a lot of jiterryness in the rendering process.
 
+## Resources Used
+
+* https://www.hackster.io/ndaniel/interactive-ai-powered-3d-screen-f9d81d
+* http://160592857366.free.fr/joe/ebooks/ShareData/Generalized%20Perspective%20Projection.pdf
+* https://web.archive.org/web/20180309131934/http://www.anxious-bored.com/blog/2018/2/25/theparallaxview-illusion-of-depth-by-3d-head-tracking-on-iphone-x
+* https://web.archive.org/web/20180309131934/http://www.anxious-bored.com/blog/2018/2/25/theparallaxview-illusion-of-depth-by-3d-head-tracking-on-iphone-x
+* https://ntrs.nasa.gov/api/citations/20130014602/downloads/20130014602.pdf
+* https://paulbourke.net/stereographics/stereorender/
+* https://en.wikibooks.org/wiki/Cg_Programming/Unity/Projection_for_Virtual_Reality
+* https://roextended.ro/forum/viewtopic.php?t=1983&start=10
+* https://github.com/opentrack/opentrack/discussions/1850
+* https://discussions.unity.com/t/freetrackir-unity3d-full-success/500115
+* https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html
+* https://catalog.ngc.nvidia.com/orgs/nvidia/teams/tao/models/facenet
+* https://roextended.ro/forum/viewtopic.php?p=799#p799
+* https://github.com/sinnwrig/URP-Fog-Volumes
+
 ## Authors
 
-- Dharmesh Sahu [@dhakkann](https://www.github.com/dhakkann) Team Leader
+- Dharmesh Sahu [@dhakkann](https://www.github.com/dhakkann) (Team Leader)
 
 - Utkarsh Ranjan
 - C Yuktha
 - Chirag
+
 ## Related Projects
-
-
 
 [Implementation for Advertising](https://medium.com/try-creative-tech/off-axis-projection-in-unity-1572d826541e)
 
