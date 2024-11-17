@@ -28,7 +28,7 @@ Set output port in OpenTrack to 5252.
 * Use your desired method for head tracking
     A list for possible tracking options is available in the https://github.com/opentrack/opentrack Wiki.
 
-    Set your desired output port in Opentrack output field setting window.(Make sure to change the port in the port variable attacked to the UDPReceiver GameObject)
+    Set your desired output port in Opentrack output field setting window.(Make sure to change the port in the port variable attached to the UDPReceiver GameObject)
 
 
 ## Lessons Learned
